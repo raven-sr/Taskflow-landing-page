@@ -1,50 +1,108 @@
-# TaskFlow — SaaS Landing Page
+# TaskFlow – SaaS Landing Page
 
-A responsive single-page SaaS landing website created for the Sankar Group Front-End Development Internship Assignment.
+A modern, responsive SaaS landing page for TaskFlow, designed with a bold dark interface and vibrant orange accents.
 
-## Tech stack
-- React 18
-- Vite
-- JavaScript
-- Bootstrap 5 (grid and form utilities)
-- Custom CSS
-- Lucide React icons
+## Live Demo
+
+https://taskflow-landing-page-jtjc.vercel.app/
+
+## GitHub Repository
+
+https://github.com/raven-sr/Taskflow-landing-page
+
+## Overview
+
+TaskFlow is a modern SaaS landing page concept designed to present a task management platform. It focuses on clean layouts, engaging visuals, clear content hierarchy, and a responsive user experience.
 
 ## Features
-- Responsive navigation with smooth section scrolling
-- Hero section with product dashboard preview
-- Six feature cards
-- How-it-works section
-- Three pricing plans with monthly/yearly toggle
-- FAQ accordion using native HTML details/summary
-- Contact/demo form with client-side validation and success state
-- Responsive layouts for desktop, tablet, and mobile
 
-## Run locally
-1. Install Node.js (LTS).
-2. Extract this project ZIP.
-3. Open the project folder in VS Code.
-4. Open a terminal in the project folder and run:
+- Modern SaaS-inspired landing page.
+- Dark theme with neon orange accents.
+- Responsive layout for desktop, tablet, and mobile.
+- Hero section with dashboard preview.
+- Features and workflow sections.
+- Testimonials and pricing sections.
+- FAQ and contact sections.
+- Smooth hover interactions and visual effects.
 
-   ```bash
-   npm install
-   npm run dev
-   ```
+## Tech Stack
 
-5. Open the local URL printed by Vite (usually http://localhost:5173).
+- **React.js** – Component-based UI development.
+- **Vite** – Fast development and build tooling.
+- **CSS3** – Custom styling, layouts, animations, and responsiveness.
+- **Bootstrap** – UI utilities and styling support.
+- **Lucide React** – Icon components.
 
-## Production build
-```bash
-npm run build
-npm run preview
+## Project Structure
+
+```text
+taskflow-landing-page/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── styles.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
 ```
 
-## Deployment
-Push the project to GitHub, then import the repository into Vercel. Use the default Vite settings:
-- Build command: `npm run build`
-- Output directory: `dist`
+*Note: The structure above is a simplified overview. Your actual project may contain additional files and folders.*
 
-## Notes
-- This is a front-end-only assignment. The demo form validates input and displays a success message; it does not send data to a backend.
-- Product name, customer quotes, metrics, email, and pricing are sample/demo content. Replace them if you want to present real business information.
-- No API keys, passwords, or private credentials are included.
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd taskflow-landing-page
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the application.
+
+### 5. Build for production
+
+```bash
+npm run build
+```
+
+## Design Choices
+
+The landing page uses a dark background combined with vibrant orange accents to create a bold and modern SaaS identity. Clean typography, consistent spacing, card-based layouts, and responsive CSS help maintain visual hierarchy and usability across different screen sizes.
+
+## Deployment
+
+The application is deployed using **Vercel**.
+
+https://github.com/raven-sr/Taskflow-landing-page
+
+## Author
+
+**Siva Sundaram**
+
+GitHub: https://github.com/raven-sr/Taskflow-landing-page
+
+---
+
+Built with React and creativity.
